@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input-group{
+    margin: auto;
+    text-align: center;
+}
+input#mealName{
+    margin-left: 15%;
+    width: 60%;
+    height: 3rem;
+    outline: none;
+    border: 1px solid #ddd;
+    padding-left: 1rem;
+    border-radius: 10rem 0 0 10rem;
+    font-size: 1.1rem;
+}
+.btn-one{
+    border-radius: 0 10rem 10rem 10rem;
+    font-weight: 600;
+    color: #555;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    margin: 3rem;
+    min-height: 530px;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 0 4px 21px -12px rgb(0 0 0 / 79%);
+}
+.card img{
+    width: 100%;
+    margin: auto;
+    border-radius: 1rem 1rem 0 0;
+}
+#meals{
+    text-align: center;
+}
+.btn-primary{
+    width: 40%;
+}
+.card-text,.card-title,.card-dish-type{
+    min-height: 2.7rem;
+    font-size:larger;
+}
+#meal{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #444;
+}
+@media(min-width: 1200px){
+    .card{
+        width: 30%;
+        margin: .5rem;
+    }
+}
+@media(max-width: 1199.7px){
+    .card{
+        width: 45%;
+        margin: 1rem;
+    }
+}
+@media(max-width: 991.7px){
+    .card{
+        width: 45%;
+        margin: .5rem;
+    }
+    .card-title{
+        min-height: 4.5rem;
+    }
+}
+@media(max-width: 767.7px){
+    .card{
+        width: 80%;
+        margin: 0rem;
+    }
+}
+@media(max-width: 767.7px){
+    .card{
+        width: 100%;
+        margin: 0rem;
+    }
+}
